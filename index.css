@@ -1,0 +1,29 @@
+body {
+    --unit: 20px;
+    --unit-half: 10px;
+}
+
+.user-container {
+    margin: var(--unit) 0;
+}
+.user-image {
+    display: block;
+    margin: 0 auto;
+}
+.user-name {
+    text-align: center;
+}
+.user-info li {
+    margin: var(--unit) 0;
+}
+
+.user-info li i {
+    margin-right: var(--unit);
+}
+
+.experience .ts-board, .projects .ts-board, .education .ts-board, .skill .ts-board {
+    margin: var(--unit);
+}
+.experience .company-name {
+    font-weight: bold;
+}
