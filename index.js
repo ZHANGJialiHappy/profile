@@ -23,7 +23,7 @@ ts.ui.ready(function () {
     }
 
     var initBoards = function () {
-        var companies = ['tradeshift', 'wangli', 'cloump', 'cicc'];
+        var companies = ['forecast'];
         companies.forEach(function (id) {
             initAside(id);
         });
